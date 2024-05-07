@@ -25,6 +25,7 @@ package Screenplayjunittest;
         import static org.hamcrest.MatcherAssert.assertThat;
         import static org.hamcrest.Matchers.equalTo;
 
+
 @Narrative(text={"In order to test complex interactions",
         "As a Serenity developer",
         "I want to interact with forms and validate responses"})
@@ -38,8 +39,6 @@ public class SimpleScreenplaytest {
     public static void setupClass() {
         System.setProperty(GeckoDriverService.GECKO_DRIVER_EXE_PROPERTY, "D:\\AuotDriver\\geckodriver.exe");
     }
-
-
 
     @Test
     public void formInteractionTest() {
