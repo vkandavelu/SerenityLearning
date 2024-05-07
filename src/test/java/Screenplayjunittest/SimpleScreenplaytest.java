@@ -51,6 +51,7 @@ public class SimpleScreenplaytest {
         );
 
         // Assuming a response is displayed in a label with id "responseLabel"
+
         String response = Text.of(PageElement.withNameOrId("responseLabel")).answeredBy(anna).toString();
         assertThat(response, equalTo("Expected Response"));
         System.out.println("My branch 2");
