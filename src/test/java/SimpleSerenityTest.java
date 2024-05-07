@@ -9,7 +9,8 @@ import org.openqa.selenium.firefox.GeckoDriverService;
 
 @RunWith(SerenityRunner.class)
 public class SimpleSerenityTest {
-NEw line added 
+NEw line added
+    seconf line added
     @Managed
         WebDriver driver;
 
